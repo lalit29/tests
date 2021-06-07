@@ -25,5 +25,6 @@ tasks.withType(Test) {
     exceptionFormat "full"
     events "started", "skipped", "passed", "failed"
     showStandardStreams true
+    exclude '**/AppTest.class'
   }
 }
