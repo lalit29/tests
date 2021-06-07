@@ -25,6 +25,6 @@ tasks.withType(Test) {
     exceptionFormat "full"
     events "started", "skipped", "passed", "failed"
     showStandardStreams true
-    exclude '**/UserLoginTest.class'
+    include '**/UserLoginTest.class'
   }
 }
