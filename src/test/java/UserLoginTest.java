@@ -3,7 +3,7 @@ import org.testng.annotations.Test;
 
 public class UserLoginTest extends TestBase {
 
-    @Test
+    @Test (groups = { "bonding" })	
     public void userLogin() {
         loginPage= new LoginPageObject(driver);
         loginPage.typeEmailId(username);
